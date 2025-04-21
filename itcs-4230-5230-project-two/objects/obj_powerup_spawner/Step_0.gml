@@ -4,7 +4,7 @@ if(timer) {
 	timer = false 
 	for(var i = 0; i < 5; i++) {
 		if(i == spawn) {
-			instance_create_layer(i*200 + x, y+ irandom_range(-120,120), "Instances", powerup)
+			instance_create_layer(i*225 + x, y+ irandom_range(-120,120), "Instances", powerup)
 		}
 	}
 }

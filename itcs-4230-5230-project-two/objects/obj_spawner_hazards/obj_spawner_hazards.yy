@@ -9,8 +9,8 @@
   "name":"obj_spawner_hazards",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"hazards",
+    "path":"folders/Objects/hazards.yy",
   },
   "parentObjectId":null,
   "persistent":false,

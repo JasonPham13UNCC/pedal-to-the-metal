@@ -23,8 +23,8 @@
   "name":"obj_player_car",
   "overriddenProperties":[],
   "parent":{
-    "name":"player things",
-    "path":"folders/Objects/player things.yy",
+    "name":"player_group",
+    "path":"folders/Objects/player_group.yy",
   },
   "parentObjectId":null,
   "persistent":false,

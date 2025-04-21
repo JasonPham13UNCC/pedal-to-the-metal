@@ -10,8 +10,8 @@
   "name":"obj_powerup_spawner",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"game_manager",
+    "path":"folders/Objects/game_manager.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,2 +1,4 @@
-miles ++;
-alarm[0] = 60;
+if (instance_exists(obj_player_car)) {
+    miles ++;
+    alarm[0] = 60;
+}

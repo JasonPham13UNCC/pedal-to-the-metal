@@ -15,4 +15,12 @@ if (!instance_exists(obj_player_car)) {
     if (keyboard_check(ord("R"))) {
         room_restart();
     }
+} else {
+    if (obj_player_car.gun) {
+        draw_set_color(c_green);
+        draw_text(1380, 70, "Rocket");
+    } else {
+        draw_set_color(c_red);
+        draw_text(1380, 70, "Rocket");
+    }
 }

@@ -1,6 +1,6 @@
 
 if(nothit) {
-	nothit = false 
-	other.y += 8
-	alarm[0] = 3
+	nothit = false;
+	other.y += 30;
+	alarm[0] = 3;
 }

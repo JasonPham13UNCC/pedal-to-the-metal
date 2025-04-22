@@ -1,13 +1,10 @@
 
 if(nothit) {
 	nothit = false
-	
 	if(other.x > x) {
-	other.x +=5
+	   other.x += 10;
 	} else {
-	other.x -=5
+	   other.x -= 10;
 	}
-	
-	alarm[0]= 3
-	
+	alarm[0]= 3;
 }

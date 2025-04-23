@@ -46,6 +46,7 @@
     {"id":{"name":"score_fnt_3","path":"fonts/score_fnt_3/score_fnt_3.yy",},},
     {"id":{"name":"score_fnt_4","path":"fonts/score_fnt_4/score_fnt_4.yy",},},
     {"id":{"name":"score_fnt_5","path":"fonts/score_fnt_5/score_fnt_5.yy",},},
+    {"id":{"name":"obj_barrier","path":"objects/obj_barrier/obj_barrier.yy",},},
     {"id":{"name":"obj_blue_car","path":"objects/obj_blue_car/obj_blue_car.yy",},},
     {"id":{"name":"obj_game_controller","path":"objects/obj_game_controller/obj_game_controller.yy",},},
     {"id":{"name":"obj_gas","path":"objects/obj_gas/obj_gas.yy",},},

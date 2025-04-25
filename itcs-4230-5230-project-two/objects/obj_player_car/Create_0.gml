@@ -4,6 +4,8 @@ image_yscale *= 5;
 
 gun = false 
 
+shield = false
+
 current_bumper = spr_car_good_bumper;
 
 

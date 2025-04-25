@@ -8,4 +8,3 @@ smash = irandom_range(0,15)
 
 loop_smash = 0
 
-point = 0;

@@ -1,1 +1,0 @@
-global.moreCar += 2

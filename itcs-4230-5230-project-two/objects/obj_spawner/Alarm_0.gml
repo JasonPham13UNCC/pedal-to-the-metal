@@ -1,5 +1,5 @@
 
-alarm[0] = spawn_speed
+alarm[0] = spawn_speed - global.hard*2
 
 
 var first = pre[0];
@@ -69,6 +69,9 @@ for(var i = 0; i < 5; i++) {
 	else if(spawning[i] == 7 or spawning[i] == 10) {
 		instance_create_layer(i*225 + x, y+ irandom_range(-120,120), "Instances", obj_move_right_car)
 	} 
+	else if(spawning[i] == 4) {
+		instance_create_layer(abs(i*225 + x + irandom_range(-100,100)), y+ irandom_range(-120,120), "Instances", obj_moter)
+	}
 	else if(spawning[i] > 3) {
 		instance_create_layer(i*225 + x, y+ irandom_range(-120,120), "Instances", obj_blue_car)
 	}

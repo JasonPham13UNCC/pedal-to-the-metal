@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"obj_health",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_health",
   "overriddenProperties":[],
@@ -9,10 +12,7 @@
     "name":"powerups",
     "path":"folders/Objects/powerups.yy",
   },
-  "parentObjectId":{
-    "name":"obj_gun",
-    "path":"objects/obj_gun/obj_gun.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

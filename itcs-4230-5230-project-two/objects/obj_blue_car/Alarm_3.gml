@@ -1,3 +1,3 @@
 
 sprite_index = spr_car
-alarm[4] =5
+alarm[4] =10

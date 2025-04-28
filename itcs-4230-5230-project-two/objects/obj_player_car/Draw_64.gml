@@ -1,6 +1,6 @@
 // Flashing starts at 50% screen height, maxes out at 80%
-var start_y = display_get_height() * 0.5;
-var end_y = display_get_height() * 0.8;
+var start_y = room_height * 0.5;
+var end_y = room_height * 0.8;
 
 if (y > start_y) {
     shader_set(shd_police);

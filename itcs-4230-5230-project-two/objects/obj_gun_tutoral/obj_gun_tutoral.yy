@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tutoral_manager",
+  "%Name":"obj_gun_tutoral",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_tutoral_manager",
+  "name":"obj_gun_tutoral",
   "overriddenProperties":[],
   "parent":{
-    "name":"game_manager",
-    "path":"folders/Objects/game_manager.yy",
+    "name":"powerups",
+    "path":"folders/Objects/powerups.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_gun",
+    "path":"objects/obj_gun/obj_gun.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_bazooka",
+    "path":"sprites/spr_bazooka/spr_bazooka.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

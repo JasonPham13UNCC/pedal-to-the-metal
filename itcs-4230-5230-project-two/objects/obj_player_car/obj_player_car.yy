@@ -31,8 +31,8 @@
   "name":"obj_player_car",
   "overriddenProperties":[],
   "parent":{
-    "name":"player_group",
-    "path":"folders/Objects/player_group.yy",
+    "name":"powerups",
+    "path":"folders/Objects/powerups.yy",
   },
   "parentObjectId":null,
   "persistent":false,

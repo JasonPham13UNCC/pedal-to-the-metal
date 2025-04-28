@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite31",
-    "path":"sprites/Sprite31/Sprite31.yy",
+    "name":"spr_bazooka_bullet",
+    "path":"sprites/spr_bazooka_bullet/spr_bazooka_bullet.yy",
   },
   "spriteMaskId":null,
   "visible":true,

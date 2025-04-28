@@ -8,4 +8,5 @@ if( shield) {
 
 if(hit == 0) {
 	instance_destroy(self);
+	audio_play_sound(snd_crash,10,false);
 }

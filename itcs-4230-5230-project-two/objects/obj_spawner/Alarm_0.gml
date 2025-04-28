@@ -70,7 +70,7 @@ for(var i = 0; i < 5; i++) {
 		instance_create_layer(i*225 + x, y+ irandom_range(-120,120), "Instances", obj_move_right_car)
 	} 
 	else if(spawning[i] == 4) {
-		instance_create_layer(abs(i*225 + x + irandom_range(-100,100)), y+ irandom_range(-120,120), "Instances", obj_moter)
+		instance_create_layer(abs(i*225 + x + irandom_range(-100,100)), y+ irandom_range(-120,120), "Instances", object_motercycle)
 	}
 	else if(spawning[i] > 3) {
 		instance_create_layer(i*225 + x, y+ irandom_range(-120,120), "Instances", obj_blue_car)

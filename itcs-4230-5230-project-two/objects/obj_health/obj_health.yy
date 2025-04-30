@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite32",
-    "path":"sprites/Sprite32/Sprite32.yy",
+    "name":"spr_wrench",
+    "path":"sprites/spr_wrench/spr_wrench.yy",
   },
   "spriteMaskId":null,
   "visible":true,

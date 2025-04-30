@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_shield",
+  "%Name":"obj_tutoral_gun",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_shield",
+  "name":"obj_tutoral_gun",
   "overriddenProperties":[],
   "parent":{
     "name":"powerups",
     "path":"folders/Objects/powerups.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_gun",
+    "path":"objects/obj_gun/obj_gun.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_shield",
-    "path":"sprites/spr_shield/spr_shield.yy",
+    "name":"spr_bazooka",
+    "path":"sprites/spr_bazooka/spr_bazooka.yy",
   },
   "spriteMaskId":null,
   "visible":true,

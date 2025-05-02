@@ -1,10 +1,10 @@
-// === CONFIGURATION ===
+
 var room_width_actual = 1920;
 var room_height_actual = 5400;
 var screen_width = 1920;
 var screen_height = 1080;
 
-// === ENABLE VIEWS ===
+
 view_enabled = true;
 
 // ----------------------------
@@ -16,9 +16,8 @@ view_yport[0] = 0;
 view_wport[0] = screen_width;
 view_hport[0] = screen_height;
 
-var main_cam = camera_create_view(0, 0, screen_width, screen_height, 0, obj_player_car, -1, -1, -1, 400);
+var main_cam = camera_create_view(0, 0, screen_width, screen_height, obj_player_car, -1, -1, -1, -1, 0);
 view_camera[0] = main_cam;
-
 
 // ----------------------------
 // VIEWPORT 1: UI Overlay (Right Panel)
@@ -29,7 +28,7 @@ view_yport[1] = 0;
 view_wport[1] = 400;
 view_hport[1] = 1080;
 
-var ui_cam = camera_create_view(0, 0, 400, 1080, 0, -1, -1, -1, -1, 0);
+var ui_cam = camera_create_view(0, 0, 400, 1080, noone, -1, -1, -1, -1, 0);
 view_camera[1] = ui_cam;
 
 // ----------------------------
@@ -46,6 +45,6 @@ view_hport[2] = mini_view_h;
 
 var mini_cam = camera_create_view(
     0, 0, room_width_actual, room_height_actual, // full room
-    0, -1, -1, -1, -1, 0
+    noone, -1, -1, -1, -1, 0
 );
 view_camera[2] = mini_cam;

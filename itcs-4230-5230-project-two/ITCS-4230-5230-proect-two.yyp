@@ -94,6 +94,7 @@
     {"id":{"name":"snd_crash","path":"sounds/snd_crash/snd_crash.yy",},},
     {"id":{"name":"snd_explosion","path":"sounds/snd_explosion/snd_explosion.yy",},},
     {"id":{"name":"snd_game_music","path":"sounds/snd_game_music/snd_game_music.yy",},},
+    {"id":{"name":"snd_puddle_splash","path":"sounds/snd_puddle_splash/snd_puddle_splash.yy",},},
     {"id":{"name":"snd_title_screen_music","path":"sounds/snd_title_screen_music/snd_title_screen_music.yy",},},
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},

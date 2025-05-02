@@ -10,7 +10,7 @@ function leaderboard_save() {
 function leaderboard_load() {
     var file = working_directory +"highscore";
     try {
-        var hande = file_text_open_read(file);
+        var handle = file_text_open_read(file);
         obj_score_manager.highscore = file_text_read_real(handle);
         file_text_close(handle);
     } catch (_exception) {

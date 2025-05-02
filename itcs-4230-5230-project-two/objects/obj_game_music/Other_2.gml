@@ -1,0 +1,3 @@
+	
+audio_stop_sound(snd_title_screen_music)
+audio_play_sound(snd_game_music,10,true)

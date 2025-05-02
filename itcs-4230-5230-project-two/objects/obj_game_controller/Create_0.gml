@@ -10,3 +10,8 @@ alarm[0]=60*10
 
 image_xscale *= 5;
 image_yscale *= 5;
+
+
+// y postion of car
+
+car_y = 0

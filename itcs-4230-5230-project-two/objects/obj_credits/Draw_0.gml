@@ -1,0 +1,2 @@
+draw_set_valign(fa_middle);
+draw_text(1920/4, 1080/2, "CREDITS:\nJASON PHAM - PRODUCER \nALBERT BASTAKOTI - GAME DESIGNER \nERIC MISIAK - ARTIST \nNATHAN SMITH - PROGRAMMER\nArt Sources: \nAdriana Appelhans \nChatGPT \nCreativeKind \nAstroBob \nSeliel the Shaper \nDeusLower")

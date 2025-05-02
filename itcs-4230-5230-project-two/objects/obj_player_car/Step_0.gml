@@ -15,5 +15,5 @@ if(hit < 2) {
 
 if(keyboard_check_pressed(ord("G"))) {
 
- gun= true
+	gun= true
 }

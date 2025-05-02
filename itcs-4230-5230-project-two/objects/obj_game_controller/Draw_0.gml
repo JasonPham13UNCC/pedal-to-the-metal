@@ -1,6 +1,7 @@
 
 
 if (!instance_exists(obj_player_car)) {
+    depth = -100;
     draw_set_font(score_fnt_1);
     draw_set_color(c_red);
     

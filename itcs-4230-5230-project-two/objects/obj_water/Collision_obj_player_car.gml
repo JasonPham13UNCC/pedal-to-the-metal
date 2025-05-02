@@ -6,18 +6,17 @@ if (can_play_splash) {
 
 if(nothit) {
 	nothit = false
+	// on left
 	if(other.x > x) {
-        if((other.x + 10) > obj_barrier) {
-            other.x -= 10;
-        } else {
-            other.x += 10;
-        }
-	} else {
-        if((other.x - 10) < obj_barrier) {
-            other.x += 10;
-        } else {
-            other.x -= 10;
-        }
+		
+		other.x +=10
+		
+	} 
+	// on right
+	else {
+		other.x -=10
+		
 	}
+	
 	alarm[0]= 3;
 }

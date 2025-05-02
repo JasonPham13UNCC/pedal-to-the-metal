@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_title",
+  "%Name":"obj_quit_button",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_title",
+  "name":"obj_quit_button",
   "overriddenProperties":[],
   "parent":{
     "name":"title_menu",
     "path":"folders/Objects/title_menu.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_play_button",
+    "path":"objects/obj_play_button/obj_play_button.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_title_art",
-    "path":"sprites/spr_title_art/spr_title_art.yy",
+    "name":"spr_menu_quit_button",
+    "path":"sprites/spr_menu_quit_button/spr_menu_quit_button.yy",
   },
   "spriteMaskId":null,
   "visible":true,

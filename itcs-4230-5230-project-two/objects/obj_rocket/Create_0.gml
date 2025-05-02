@@ -26,3 +26,5 @@ part_type_speed(fire, 0.5, 1, 0, 0);
 part_type_direction(fire, 0, 360, 0, 0);
 part_type_gravity(fire, 0.02, 270);
 part_type_life(fire, 15, 25);
+
+image_angle = 90

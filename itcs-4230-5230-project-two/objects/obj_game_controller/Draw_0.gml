@@ -7,8 +7,8 @@ if (!instance_exists(obj_player_car)) {
     draw_set_valign(fa_middle);
     draw_set_halign(fa_center);
     
-    draw_text(room_width/2, car_y - 40, "GAME OVER | " + string(obj_score_manager.miles));
-    draw_text(room_width/2, car_y + 40, "Press 'R' to Restart");
+    draw_text(room_width/2 -300, car_y - 40, "GAME OVER | " + string(obj_score_manager.miles));
+    draw_text(room_width/2 - 300, car_y + 40, "Press 'R' to Restart");
     
     draw_set_color(c_white);
     draw_set_valign(fa_top);

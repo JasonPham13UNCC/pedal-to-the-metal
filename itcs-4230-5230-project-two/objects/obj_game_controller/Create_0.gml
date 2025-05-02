@@ -14,4 +14,4 @@ image_yscale *= 5;
 
 // y postion of car
 
-car_y = 0
+car_y = 5000

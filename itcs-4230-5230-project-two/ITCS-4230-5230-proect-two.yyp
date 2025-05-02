@@ -118,7 +118,6 @@
     {"id":{"name":"spr_grass","path":"sprites/spr_grass/spr_grass.yy",},},
     {"id":{"name":"spr_green_motorcycle","path":"sprites/spr_green_motorcycle/spr_green_motorcycle.yy",},},
     {"id":{"name":"spr_helipad","path":"sprites/spr_helipad/spr_helipad.yy",},},
-    {"id":{"name":"spr_menu_button_play","path":"sprites/spr_menu_button_play/spr_menu_button_play.yy",},},
     {"id":{"name":"spr_menu_regular_button","path":"sprites/spr_menu_regular_button/spr_menu_regular_button.yy",},},
     {"id":{"name":"spr_placeholder_gun","path":"sprites/spr_placeholder_gun/spr_placeholder_gun.yy",},},
     {"id":{"name":"spr_pothole","path":"sprites/spr_pothole/spr_pothole.yy",},},

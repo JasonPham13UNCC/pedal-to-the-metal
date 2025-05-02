@@ -19,7 +19,7 @@
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"fc842a81-196a-4502-b5fa-b23761b3a6d6","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"fc842a81-196a-4502-b5fa-b23761b3a6d6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"f05e4fcf-1b94-4c67-9134-f9adffb01fb9","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"f05e4fcf-1b94-4c67-9134-f9adffb01fb9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"67541f35-ac51-4a23-b237-0d0ef0d9478c","blendMode":0,"displayName":"default","isLocked":false,"name":"67541f35-ac51-4a23-b237-0d0ef0d9478c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_menu_credits_button",

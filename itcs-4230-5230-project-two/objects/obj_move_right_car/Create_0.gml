@@ -4,6 +4,7 @@ image_yscale *= 5;
 alarm[0]= 20
 
 
+
 move = true
 sec = 5
 

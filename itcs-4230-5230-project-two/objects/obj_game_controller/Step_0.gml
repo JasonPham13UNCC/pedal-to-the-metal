@@ -8,4 +8,3 @@ if(instance_exists(obj_player_car)) {
 		car_y = obj_player_car.y
 	}
 }
-show_debug_message(car_y)

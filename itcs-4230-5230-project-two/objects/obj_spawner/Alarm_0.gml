@@ -1,5 +1,6 @@
 
-alarm[0] = spawn_speed - global.hard*2
+
+alarm[0] = spawn_speed - clamp(global.hard*2, 0, 22)
 
 
 var first = pre[0];

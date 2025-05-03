@@ -11,13 +11,14 @@ if (!instance_exists(obj_player_car)) {
     
     draw_set_font(score_fnt_1);
     draw_set_color(c_orange);
-	draw_rectangle_color(room_width/2-840, car_y - 200, room_width/2+250, car_y+120, c_dkgray,c_dkgray,c_dkgray,c_dkgray,false)
+	draw_rectangle_color(room_width/2-940, car_y - 200, room_width/2+350, car_y+200, c_dkgray,c_dkgray,c_dkgray,c_dkgray,false)
     
     draw_set_valign(fa_middle);
     draw_set_halign(fa_center);
     
     draw_text(room_width/2 -300, car_y - 40, "GAME OVER | " + string(obj_score_manager.miles));
     draw_text(room_width/2 - 300, car_y + 40, "Press 'R' to Restart");
+	draw_text(room_width/2 - 300, car_y + 120, "Press 'H' to return to menu");
     draw_text(room_width/2 - 300, car_y - 120, "HIGHSCORE: " + string(obj_score_manager.highscore));
     
     draw_set_color(c_white);
@@ -26,6 +27,9 @@ if (!instance_exists(obj_player_car)) {
     
     if (keyboard_check(ord("R"))) {
         room_restart();
+    }
+	if (keyboard_check(ord("H"))) {
+        room_goto(rm_menu_screen);
     }
 } else {
     if (obj_player_car.gun) {

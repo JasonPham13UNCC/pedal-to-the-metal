@@ -124,6 +124,7 @@
     {"id":{"name":"spr_helipad","path":"sprites/spr_helipad/spr_helipad.yy",},},
     {"id":{"name":"spr_menu_back_button","path":"sprites/spr_menu_back_button/spr_menu_back_button.yy",},},
     {"id":{"name":"spr_menu_credits_button","path":"sprites/spr_menu_credits_button/spr_menu_credits_button.yy",},},
+    {"id":{"name":"spr_menu_home_button","path":"sprites/spr_menu_home_button/spr_menu_home_button.yy",},},
     {"id":{"name":"spr_menu_play_button","path":"sprites/spr_menu_play_button/spr_menu_play_button.yy",},},
     {"id":{"name":"spr_menu_quit_button","path":"sprites/spr_menu_quit_button/spr_menu_quit_button.yy",},},
     {"id":{"name":"spr_menu_regular_button","path":"sprites/spr_menu_regular_button/spr_menu_regular_button.yy",},},

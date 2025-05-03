@@ -11,4 +11,3 @@ current_bumper = spr_car_good_bumper;
 
 
 hit = 2
-
